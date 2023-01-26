@@ -102,6 +102,7 @@ while (menu0 != '4'): # input pra selecionar as opções ou voltar
                         print('')
                     elif clinico == '4': # se for escolhida a opção de voltar ele vai voltar
                         print ('') # e printar um espaço
+                        break
                     else: # se não:
                         print ('Escolha inválida!') # caso for digitado uma opção inválida
                     print ('')
@@ -162,8 +163,7 @@ while (menu0 != '4'): # input pra selecionar as opções ou voltar
                             print('Consulta marcada às 18:45h com o Dr. Nascimenti') # printa o resultado das escolhas
                             print ('')
                             break
-                    break
-                break 
+                     
             if menu1 == '2':
                 while (pediatra != '4'):
                     print('**Pediatra**')
@@ -190,6 +190,7 @@ while (menu0 != '4'): # input pra selecionar as opções ou voltar
                         print('')
                     elif pediatra == '4':
                         print ('')
+                        break
                     else:
                         print ('Escolha inválida!')
                     print ('')
